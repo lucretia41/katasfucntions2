@@ -33,3 +33,17 @@ function factorial(x) {
 }
 console.log(factorial(4))
 console.log(factorial(5))
+
+function fibonacci(n) {
+
+    let fibo = [0, 1];
+
+    for (let index = 2; index < n; index++) {
+        fibo[index] = add(fibo[add(index, -1)], fibo[add(index, -2)]);
+
+
+    }
+    return fibo[add(n, -1)];
+
+}
+console.log(fibonacci(8))
