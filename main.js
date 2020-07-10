@@ -1,8 +1,8 @@
 function add(x, y) {
     return (x + y)
 }
-console.log(add(2, 4))
-console.log(add(5, 7))
+console.log('kata1', add(2, 4))
+console.log('kata1', add(5, 7))
 
 function multiply(x, y) {
     let product = x
@@ -11,7 +11,7 @@ function multiply(x, y) {
     }
     return product
 }
-console.log(multiply(6, 4))
+console.log('kata2', multiply(6, 4))
 
 function power(x, n) {
     let powerNumber = x
@@ -20,8 +20,8 @@ function power(x, n) {
     }
     return powerNumber
 }
-console.log(power(2, 8))
-console.log(power(3, 4))
+console.log('kata3', power(2, 8))
+console.log('kata3', power(3, 4))
 
 
 function factorial(x) {
@@ -31,8 +31,8 @@ function factorial(x) {
     }
     return total;
 }
-console.log(factorial(4))
-console.log(factorial(5))
+console.log('kata4', factorial(4))
+console.log('kata4', factorial(5))
 
 function fibonacci(n) {
 
@@ -46,4 +46,4 @@ function fibonacci(n) {
     return fibo[add(n, -1)];
 
 }
-console.log(fibonacci(8))
+console.log('kata5', fibonacci(8))
